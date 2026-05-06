@@ -107,6 +107,6 @@ How many UDP close port messages are there?<br>
 <b>Filter: icmp.type == 3 && icmp.code == 3</b> <br>
 <br>
 Which UDP port in the 55-70 port range is open?<br>
-<b>Filter: udp.poty in {55..70}</b> <br>
+<b>Filter: udp.port in {55..70}</b> <br>
 
 
