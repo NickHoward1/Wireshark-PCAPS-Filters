@@ -19,9 +19,6 @@ Filtering by IP allows me to isolate conversations for deeper analysis of an ale
 
 <h3>How to spot anomalies in Wireshark</h3>
 
-
-
-
 <h3>IP filters</h3>
 
  <p>
@@ -118,3 +115,11 @@ What is the number of packets that use port 3333, 4444, or 9999?<br>
 <br>
 What is the number of packets with even TTL number?<br>
 <b>Filter: string(ip.ttl) matches "[02468]"</b> <br>
+
+<h3>How to spot anomalies in Wireshark</h3>
+
+<b>DDOS</b> When data is being transferred the client needs to connect with the server and establish a 3-way handshake. Which looks like this SYN, SYN ACK, ACK. If there is multiple SYN's being sent within short period of time this is a indicator of a DOS attack. A DDOS attack is where multiple IP addresses that have been spoofed are sending multiple packets to one target. <br>
+
+Filter: <b>tcp.flags.syn == 1 and tcp.flags.ack == 0</b> (If there is a large number of SYN packets there this is a DDOS attack) You can also check the conversation in wireshark. <b>Statistics -> Conversations</b> (If there are a number of packets targeting one single IP from different source addresses, and no reply pack this indicates DDOS. 
+
+
