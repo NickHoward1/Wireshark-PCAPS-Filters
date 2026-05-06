@@ -49,9 +49,21 @@ Filtering by IP allows me to isolate conversations for deeper analysis of an ale
 <h3>Application Level Protocol Filters - HTTP and DNS</h3>
 
  <p>
-<img src= "" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src= "https://github.com/NickHoward1/Wireshark-PCAPS-Filters/blob/3aa374be87a3d6aa110f43ecbda0b7cb87c2c94e/Screenshot%202026-05-06%20at%2012.16.24.png" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src= "" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" width="250" height="250" /> 
 </p>
+
+<h3>Filters:</h3>
+<b>http</b> (Shows all HTTP packets)<br>
+<b>http.response.code == 200</b> (Shows all packets with HTTP response code "200")<br>
+<b>http.request.method == "GET"</b> (Shows all HTTP GET requests)<br>
+<b>udp.port == 53</b> (Shows all UDP packets with port 53)<br>
+<b>http.request.method == "POST"</b> (Shows all HTTP POST requests)<br>
+<b>dns.flags.response == 0</b> (Show all DNS requests)<br>
+<b>dns.flags.response == 1</b> (Show all DNS responses)<br>
+<b>dns.qry.type == 1</b> (Show all DNS responses)<br>
+<b>dns.qry.type == 1</b> (Show all DNS "A" records)
+
 
 <h3>Advanced Filtering</h3>
 
