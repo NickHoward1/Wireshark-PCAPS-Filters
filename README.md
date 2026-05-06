@@ -100,6 +100,7 @@ What is the number of http GET requests sent to port 80?<br>
 <br>
 What is the number of type A DNS queries?<br>  
 <b>Filter: dns.a </b> <br>
+<br>
 What is the total number of TCP connect scans<br> 
 <b>Filter: tcp.flags.syn == 1 && tcp.flags.ack == 0 && tcp.window.size >1024 </b> <br>
 <br>
