@@ -122,7 +122,7 @@ What is the number of packets with even TTL number?<br>
 
 Filter: <b>tcp.flags.syn == 1 and tcp.flags.ack == 0</b> (If there are a large number of SYN packets there this is a DDOS attack) You can also check the conversation in wireshark. <b>Statistics -> Conversations</b> (If there are a number of packets targeting one single IP from different source addresses, and no reply pack this indicates DDOS. 
 
-<img src= "<img src= "" width="250" height="250"/>" width="250" height="250"/>
+<img src= "<img src= "https://github.com/NickHoward1/Wireshark-PCAPS-Filters/blob/466482266c51541490530ce351eb9a3decfd4dd7/Screenshot%202026-05-06%20at%2015.39.06.png" width="250" height="250"/>" width="250" height="250"/>
 
 <b>Demo</b> - https://www.youtube.com/watch?v=m2LoHpqrN4o
 
