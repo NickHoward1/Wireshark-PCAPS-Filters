@@ -39,11 +39,12 @@ Filtering by IP allows me to isolate conversations for deeper analysis of an ale
 </p>
 
 <h3>Filter examples:</h3>
-<b>ip</b> (Shows all IP packets)<br>
-<b>ip.addr == 10.10.10.111</b> (Shows all packets containing IP address 10.10.10.111)<br>
-<b>ip.addr == 10.10.10.0/24</b> (Shows all packets containing IP addresses from 10.10.10.0/24 subnet)<br>
-<b>ip.src == 10.10.10.111</b> (Show all packets originated from 10.10.10.111)<br>
-<b>ip.dst == 10.10.10.111</b> (Show all packets sent to 10.10.10.111)
+<b>tcp.port == 80</b> (Shows all TCP packets with port 80)<br>
+<b>tcp.srcport == 1234</b> (Shows all TCP packets originating from port 1234)<br>
+<b>tcp.dstport == 80</b> (Shows all TCP packets sent to port 80)<br>
+<b>udp.port == 53</b> (Shows all UDP packets with port 53)<br>
+<b>udp.srcport == 1234</b> (Show all UDP packets originating from port 1234)
+<b>udp.dstport == 5353</b> (Show all UDP packets sent to port 5353)
 
 <h3>Application Level Protocol Filters - HTTP and DNS</h3>
 
