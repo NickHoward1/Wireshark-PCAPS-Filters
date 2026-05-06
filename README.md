@@ -24,8 +24,8 @@ Filtering by IP allows me to isolate conversations for deeper analysis of an ale
 <img src= "https://github.com/NickHoward1/ActiveDirectoryLab/blob/0f268f6aea0a68cc5b94ba70bbb887ec3c5e7862/Screenshot%202026-05-06%20at%2008.09.46.png" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/NickHoward1/ActiveDirectoryLab/blob/94a10d4acdda1c3cfa7a527920a43a3625cd9c2e/Screenshot%202026-05-06%20at%2007.56.44.png" width="250" height="250" /> 
 </p>
 
-Filter examples:<br> 
-ip (Shows all IP packets)<br>
+<h3>Filter examples:</h3><br> 
+<b>ip</b> (Shows all IP packets)<br>
 <b>ip.addr == 10.10.10.111</b> (Shows all packets containing IP address 10.10.10.111)<br>
 <b>ip.addr == 10.10.10.0/24</b> (Shows all packets containing IP addresses from 10.10.10.0/24 subnet)<br>
 <b>ip.src == 10.10.10.111</b> (Show all packets originated from 10.10.10.111)<br>
