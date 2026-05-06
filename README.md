@@ -4,7 +4,7 @@
 In this lab, I showcase the knowledge I’ve gained from completing various tasks on TryHackMe, focusing on the filters I used to find answers and, more importantly, how those filters can be applied to identify anomalies in network traffic.
 
 <h2>Environment</h2>
-- Virtual Machine with TryHackMe (remote desktop - Linux)
+- Virtual Machine with TryHackMe.
 
 <h2>Tools used</h2>
 - Wireshark 
@@ -45,3 +45,9 @@ Other filters:
 <h3>Advanced Filtering</h3>
 
 Other filters: 
+
+<h3>Questions & Answer in try hack me</h3>
+
+
+<h3>Notes: How to spot anomalies in Wireshark</h3>
+
