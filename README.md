@@ -87,12 +87,19 @@ Filtering by IP allows me to isolate conversations for deeper analysis of an ale
 
 <h3>Questions & Answer TryHackMe</h3>
 What is the number of IP packets? <br>
-filter: ip <br>
-
+<b>Filter: ip</b> <br>
+<br>
 What is the number of packets with TTL value less than 10? <br>
-filter: ip.ttl < 10 <br>
-
-
+<b>Filter: ip.ttl < 10</b> <br>
+<br>
+What is the number of packets which uses TCP port 4444?<br>
+<b>Filter: tcp.port == 4444</b> <br>
+<br>
+What is the number of http GET requests sent to port 80?<br>
+<b>Filter: http.request.method == "GET" && tcp.port == "80"</b> <br>
+<br>
+What is the number of type A DNS queries?<br>
+<b>Filter: dns.a </b> <br>
 
 
 <h3>Notes: How to spot anomalies in Wireshark</h3>
