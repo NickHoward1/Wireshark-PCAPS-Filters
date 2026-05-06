@@ -109,5 +109,12 @@ How many UDP close port messages are there?<br>
 <br>
 Which UDP port in the 55-70 port range is open?<br>
 <b>Filter: udp.port in {55..70}</b> <br>
-
-
+<br>
+Find all microsoft IIS servers. What is the number of packets that did not originate from port 80? <br>
+<b>Filter: http.server contains IIS && !tcp.port ==80</b> <br>
+<br>
+What is the number of packets that use port 3333, 4444, or 9999?<br>
+<b>Filter: tcp.port in {3333 44444 9999}</b> <br>
+<br>
+What is the number of packets with even TTL number?<br>
+<b>Filter: string(ip.ttl) matches "[02468]"</b> <br>
