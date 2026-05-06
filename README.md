@@ -53,16 +53,16 @@ Filtering by IP allows me to isolate conversations for deeper analysis of an ale
 <img src= "" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" width="250" height="250" /> 
 </p>
 
-<h3>Filters:</h3>
+<h3>Filter examples:</h3>
 <b>http</b> (Shows all HTTP packets)<br>
 <b>http.response.code == 200</b> (Shows all packets with HTTP response code "200")<br>
 <b>http.request.method == "GET"</b> (Shows all HTTP GET requests)<br>
 <b>udp.port == 53</b> (Shows all UDP packets with port 53)<br>
 <b>http.request.method == "POST"</b> (Shows all HTTP POST requests)<br>
-<b>dns.flags.response == 0</b> (Show all DNS requests)<br>
-<b>dns.flags.response == 1</b> (Show all DNS responses)<br>
-<b>dns.qry.type == 1</b> (Show all DNS responses)<br>
-<b>dns.qry.type == 1</b> (Show all DNS "A" records)
+<b>dns.flags.response == 0</b> (Shows all DNS requests)<br>
+<b>dns.flags.response == 1</b> (Shows all DNS responses)<br>
+<b>dns.qry.type == 1</b> (Shows all DNS responses)<br>
+<b>dns.qry.type == 1</b> (Shows all DNS "A" records)
 
 
 <h3>Advanced Filtering</h3>
