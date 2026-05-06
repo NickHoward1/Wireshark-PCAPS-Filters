@@ -38,7 +38,12 @@ Filtering by IP allows me to isolate conversations for deeper analysis of an ale
 <img src= "https://github.com/NickHoward1/Wireshark-PCAPS-Filters/blob/4564bed4406829a41943ea32582104ce2f19d945/Screenshot%202026-05-06%20at%2011.57.22.png" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" width="250" height="250" /> 
 </p>
 
-Other filters: 
+<h3>Filter examples:</h3>
+<b>ip</b> (Shows all IP packets)<br>
+<b>ip.addr == 10.10.10.111</b> (Shows all packets containing IP address 10.10.10.111)<br>
+<b>ip.addr == 10.10.10.0/24</b> (Shows all packets containing IP addresses from 10.10.10.0/24 subnet)<br>
+<b>ip.src == 10.10.10.111</b> (Show all packets originated from 10.10.10.111)<br>
+<b>ip.dst == 10.10.10.111</b> (Show all packets sent to 10.10.10.111)
 
 <h3>Application Level Protocol Filters - HTTP and DNS</h3>
 
