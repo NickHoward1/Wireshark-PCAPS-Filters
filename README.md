@@ -68,7 +68,7 @@ Filtering by IP allows me to isolate conversations for deeper analysis of an ale
 <h3>Advanced Filtering</h3>
 
  <p>
-<img src= "" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src= "https://github.com/NickHoward1/Wireshark-PCAPS-Filters/blob/0fd0b9c73b75708cfde098bca4d9c7220639ad1a/Screenshot%202026-05-06%20at%2012.35.53.png" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src= "" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" width="250" height="250" /> 
 </p>
 
