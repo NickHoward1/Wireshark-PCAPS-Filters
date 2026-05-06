@@ -34,7 +34,7 @@ Filtering by IP allows me to isolate conversations for deeper analysis of an ale
 <h3>TCP and UDP Filters</h3>
 
  <p>
-<img src= "" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src= "https://github.com/NickHoward1/Wireshark-PCAPS-Filters/blob/e3c33a0a630dc894466d5f939ae79c37e7c7a851/Screenshot%202026-05-06%20at%2011.48.34.png" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src= "" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" width="250" height="250" /> 
 </p>
 
