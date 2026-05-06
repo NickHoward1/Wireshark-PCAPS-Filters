@@ -13,7 +13,7 @@ In this lab, I showcase the knowledge I’ve gained from completing various task
   <li>Wireshark </li>
 </ul>
 
-
+<h2>Pr</h2>
 
 Filtering by IP allows me to isolate conversations for deeper analysis of an alert triggered in the SOC. I can then examine the PCAP for anomalies and unusual behavior, such as repeated requests with large payloads, communication with unknown external IPs or domains, and traffic to servers that do not align with normal business activity. I would also look for encoded or obfuscated data, as well as regular beaconing intervals that could indicate malware communicating with a C2 server.
 
@@ -24,12 +24,12 @@ Filtering by IP allows me to isolate conversations for deeper analysis of an ale
 <img src= "https://github.com/NickHoward1/ActiveDirectoryLab/blob/0f268f6aea0a68cc5b94ba70bbb887ec3c5e7862/Screenshot%202026-05-06%20at%2008.09.46.png" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/NickHoward1/ActiveDirectoryLab/blob/94a10d4acdda1c3cfa7a527920a43a3625cd9c2e/Screenshot%202026-05-06%20at%2007.56.44.png" width="250" height="250" /> 
 </p>
 
-Filter examples: 
-ip (Shows all IP packets)
-ip.addr == 10.10.10.111 (Shows all packets containing IP address 10.10.10.111)
-ip.addr == 10.10.10.0/24 (Shows all packets containing IP addresses from 10.10.10.0/24 subnet)
-ip.src == 10.10.10.111 (Show all packets originated from 10.10.10.111)
-ip.dst == 10.10.10.111 (Show all packets sent to 10.10.10.111)
+Filter examples:<br> 
+ip (Shows all IP packets)<br>
+<b>ip.addr == 10.10.10.111</b> (Shows all packets containing IP address 10.10.10.111)<br>
+<b>ip.addr == 10.10.10.0/24</b> (Shows all packets containing IP addresses from 10.10.10.0/24 subnet)<br>
+<b>ip.src == 10.10.10.111</b> (Show all packets originated from 10.10.10.111)<br>
+<b>ip.dst == 10.10.10.111</b> (Show all packets sent to 10.10.10.111)
 
 <h3>TCP and UDP Filters</h3>
 
