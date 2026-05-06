@@ -98,9 +98,15 @@ What is the number of packets which uses TCP port 4444?<br>
 What is the number of http GET requests sent to port 80?<br>
 <b>Filter: http.request.method == "GET" && tcp.port == "80"</b> <br>
 <br>
-What is the number of type A DNS queries?<br>
+What is the number of type A DNS queries?<br>  
 <b>Filter: dns.a </b> <br>
+What is the total number of TCP connect scans<br> 
+<b>Filter: tcp.flags.syn == 1 && tcp.flags.ack == 0 && tcp.window.size >1024 </b> <br>
+<br>
+How many UDP close port messages are there?<br>
+<b>Filter: icmp.type == 3 && icmp.code == 3</b> <br>
+<br>
+Which UDP port in the 55-70 port range is open?<br>
+<b>Filter: udp.poty in {55..70}</b> <br>
 
-
-<h3>Notes: How to spot anomalies in Wireshark</h3>
 
