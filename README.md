@@ -126,4 +126,4 @@ Filter: <b>tcp.flags.syn == 1 and tcp.flags.ack == 0</b> (If there are a large n
 
 <b>Demo</b> - https://www.youtube.com/watch?v=m2LoHpqrN4o
 
-
+<b>Malware Analysis</b> - Filter http, if you see several "POST" it would be wise to investigate further, right click on the POST packet and follow -> TCP Stream, check the host, if there is an external IP address and no recognised host, you want to continue the investigation, next look at the osi layer and specifically the internet protocol, check the destination, if its coming from a random country that the business doesnt operate from. 
