@@ -67,7 +67,18 @@ Filtering by IP allows me to isolate conversations for deeper analysis of an ale
 
 <h3>Advanced Filtering</h3>
 
-Other filters: 
+ <p>
+<img src= "" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src= "" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" width="250" height="250" /> 
+</p>
+
+<h3>Filter examples:</h3>
+<b>http.server contains "Apache"</b> (Finds all "Apache" servers)<br>
+<b>http.host matches "\.(php|html)"</b> (Finds all .php and .html pages.)<br>
+<b>tcp.port in {80 443 8080}</b> (Finds all packets that use ports 80, 443 or 8080)<br>
+<b>upper(http.server) contains "APACHE"</b> (Finds all "APACHE" servers)<br>
+<b>string(frame.number) matches "[13579]$"</b> (Find all frames with odd numbers.)<br>
+
 
 <h3>Questions & Answer in try hack me</h3>
 
