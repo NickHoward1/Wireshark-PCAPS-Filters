@@ -43,7 +43,7 @@ Filtering by IP allows me to isolate conversations for deeper analysis of an ale
 <b>tcp.srcport == 1234</b> (Shows all TCP packets originating from port 1234)<br>
 <b>tcp.dstport == 80</b> (Shows all TCP packets sent to port 80)<br>
 <b>udp.port == 53</b> (Shows all UDP packets with port 53)<br>
-<b>udp.srcport == 1234</b> (Show all UDP packets originating from port 1234)
+<b>udp.srcport == 1234</b> (Show all UDP packets originating from port 1234)<br>
 <b>udp.dstport == 5353</b> (Show all UDP packets sent to port 5353)
 
 <h3>Application Level Protocol Filters - HTTP and DNS</h3>
