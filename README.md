@@ -37,7 +37,6 @@ Filtering by IP allows me to isolate conversations for deeper analysis of an ale
 <img src= "https://github.com/NickHoward1/Wireshark-PCAPS-Filters/blob/e3c33a0a630dc894466d5f939ae79c37e7c7a851/Screenshot%202026-05-06%20at%2011.48.34.png" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src= "https://github.com/NickHoward1/Wireshark-PCAPS-Filters/blob/4564bed4406829a41943ea32582104ce2f19d945/Screenshot%202026-05-06%20at%2011.57.22.png" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" width="250" height="250" /> 
 </p>
-
 <h3>Filter examples:</h3>
 <b>tcp.port == 80</b> (Shows all TCP packets with port 80)<br>
 <b>tcp.srcport == 1234</b> (Shows all TCP packets originating from port 1234)<br>
