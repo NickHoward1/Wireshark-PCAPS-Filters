@@ -4,11 +4,13 @@
 In this lab, I showcase the knowledge I’ve gained from completing various tasks on TryHackMe, focusing on the filters I used to find answers and, more importantly, how those filters can be applied to identify anomalies in network traffic.
 
 <h2>Environment</h2>
-- Virtual Machine with TryHackMe.
+<ul>
+  <li>Virtual Machine with TryHackMe</li>
+</ul>
 
 <h2>Tools used</h2>
 - Wireshark 
-<b></b>
+
 
 Filtering by IP allows me to isolate conversations for deeper analysis of an alert triggered in the SOC. I can then examine the PCAP for anomalies and unusual behavior, such as repeated requests with large payloads, communication with unknown external IPs or domains, and traffic to servers that do not align with normal business activity. I would also look for encoded or obfuscated data, as well as regular beaconing intervals that could indicate malware communicating with a C2 server.
 
