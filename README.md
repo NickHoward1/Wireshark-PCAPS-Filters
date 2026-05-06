@@ -17,6 +17,11 @@ In this lab, I showcase the knowledge I’ve gained from completing various task
 
 Filtering by IP allows me to isolate conversations for deeper analysis of an alert triggered in the SOC. I can then examine the PCAP for anomalies and unusual behavior, such as repeated requests with large payloads, communication with unknown external IPs or domains, and traffic to servers that do not align with normal business activity. I would also look for encoded or obfuscated data, as well as regular beaconing intervals that could indicate malware communicating with a C2 server.
 
+<h3>How to spot anomalies in Wireshark</h3>
+
+
+
+
 <h3>IP filters</h3>
 
  <p>
@@ -80,7 +85,14 @@ Filtering by IP allows me to isolate conversations for deeper analysis of an ale
 <b>string(frame.number) matches "[13579]$"</b> (Find all frames with odd numbers.)<br>
 
 
-<h3>Questions & Answer in try hack me</h3>
+<h3>Questions & Answer TryHackMe</h3>
+What is the number of IP packets? <br>
+filter: ip <br>
+
+What is the number of packets with TTL value less than 10? <br>
+filter: ip.ttl < 10 <br>
+
+
 
 
 <h3>Notes: How to spot anomalies in Wireshark</h3>
