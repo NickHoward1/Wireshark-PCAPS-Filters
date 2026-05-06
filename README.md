@@ -50,7 +50,7 @@ Filtering by IP allows me to isolate conversations for deeper analysis of an ale
 
  <p>
 <img src= "https://github.com/NickHoward1/Wireshark-PCAPS-Filters/blob/3aa374be87a3d6aa110f43ecbda0b7cb87c2c94e/Screenshot%202026-05-06%20at%2012.16.24.png" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src= "https://github.com/NickHoward1/Wireshark-PCAPS-Filters/blob/56f7402659e1620b95b2d9ab40573242f5b8316d/Screenshot%202026-05-06%20at%2012.26.11.png" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" width="250" height="250" /> 
+<img src= "https://github.com/NickHoward1/Wireshark-PCAPS-Filters/blob/56f7402659e1620b95b2d9ab40573242f5b8316d/Screenshot%202026-05-06%20at%2012.26.11.png" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/NickHoward1/Wireshark-PCAPS-Filters/blob/f49a062876460d14c00b7db992d0b255a3c307f0/Screenshot%202026-05-06%20at%2012.28.04.png" width="250" height="250" /> 
 </p>
 
 <h3>Filter examples:</h3>
