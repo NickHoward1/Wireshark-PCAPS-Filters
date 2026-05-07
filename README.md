@@ -17,9 +17,7 @@ In this lab, I showcase the knowledge I’ve gained from completing various task
 
 Filtering by IP allows me to isolate conversations for deeper analysis of an alert triggered in the SOC. I can then examine the PCAP for anomalies and unusual behavior, such as repeated requests with large payloads, communication with unknown external IPs or domains, and traffic to servers that do not align with normal business activity. I would also look for encoded or obfuscated data, as well as regular beaconing intervals that could indicate malware communicating with a C2 server.
 
-<h3>How to spot anomalies in Wireshark</h3>
-
-<h3>IP filters</h3>
+<h3>IP Filters</h3>
 
  <p>
 <img src= "https://github.com/NickHoward1/ActiveDirectoryLab/blob/f7afa327640c281a09056154470ec06df3c7d032/Screenshot%202026-05-06%20at%2008.19.40.png" width="250" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
