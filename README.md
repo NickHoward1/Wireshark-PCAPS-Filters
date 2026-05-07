@@ -1,6 +1,6 @@
 <h1>Wireshark: PCAP's & Filters</h1>
 
-<h2>Description</h2>
+<h2>Objective</h2>
 In this lab, I showcase the knowledge I’ve gained from completing various tasks on TryHackMe, focusing on the filters I used to find answers and, more importantly, how those filters can be applied to identify anomalies in network traffic.
 
 <h2>Environment</h2>
