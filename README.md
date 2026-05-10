@@ -9,10 +9,8 @@ In this lab, I showcase the knowledge I’ve gained from completing various task
 </ul>
 
 <h2>Tasks Completed</h2>
-
-<h2>Tools used</h2>
 <ul>
-  <li>Wireshark </li>
+  <li> </li>
 </ul>
 
 <h2>Screenshots</h2>
