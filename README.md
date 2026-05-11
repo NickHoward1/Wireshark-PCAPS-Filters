@@ -10,7 +10,8 @@ In this lab, I showcase the knowledge I’ve gained from completing various task
 
 <h2>Tasks Completed</h2>
 <ul>
-  <li> </li>
+  <li>Apply various filters in Wireshark</li>
+  <li>Created a playbook of filters to apply in Wireshark</li>
 </ul>
 
 <h2>Screenshots</h2>
